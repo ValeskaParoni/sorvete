@@ -1,0 +1,4 @@
+{% for key in w%}
+ola {{ key }} : {{w[key]}}
+{% endfor %}
+ols

@@ -1,0 +1,10 @@
+<form action={{new_account_url}} method='POST'>
+    <input type='text' name='username'>Login</input> <br/>
+    <input type='password' name='password'>Senha</input> <br/>
+    <input type='text' name='name'>Nome</input> <br/>
+    <input type='submit'>criar</input> <br/>
+{% if username_error %}
+<p>Username já existe! :(</p>
+{% endif %}
+</form>
+
